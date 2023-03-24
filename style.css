@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+form {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input[type="text"],
+input[type="tel"],
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+select {
+    cursor: pointer;
+}
+button[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 60px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button[type="submit"]:hover {
+    background-color: #114581;
+}
+header {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+button[type="limpiar"] {
+background-color: #333;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 10px 60px;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+button[type="limpiar"]:hover {
+    background-color: #114581;
+}
+header {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+.contenido {
+/* Estilos para la clase "contenido" */
+background-color: #f2f2f2;
+padding: 20px;
+border-radius: 10px;
+}
+nav {
+background-color: #333;
+overflow: hidden;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+nav li {
+flex: 1;
+}
+
+nav a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+nav a:hover {
+background-color: #114581;
+color: rgb(202, 205, 245);
+}
+/* Estilos para pantallas grandes */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .form-group {
+    width: 48%;
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 767px) {
+    .container {
+      max-width: none;
+      padding: 0 1rem;
+    }
+    .form-group {
+      width: 100%;
+    }
+  }
+  p {
+    font-size: 1.2rem; /* Tamaño de letra */
+    line-height: 1.5; /* Altura de línea */
+    margin-bottom: 1rem; /* Margen inferior */
+    color: #333; /* Color de letra */
+    font-weight: 400; /* Peso de letra */
+    font-family: Arial, sans-serif; /* Familia de fuente */
+    text-align: center; /* Alineación de texto */
+  }
+  iframe {
+    border: 2px solid #000000;
+    width: 100%;
+    height: 400px;
+  }
+  
