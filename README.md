@@ -17,3 +17,24 @@ Se evita la reserva en simultáneo de dos o más usuarios para una determinada f
 Falta darle funcionalidad al menú; solo luce los encabezados pero no direcciona a ninguna parte del sitio.
 Falta verificar que no se permita reservar fechas en fin de semana.
 Falta agregar inicio de sesión a la página de backoffice "agenda.php"
+
+## Prerrequisito:
+
+Crear base de datos necesaria para este proyecto:
+
+
+CREATE DATABASE IF NOT EXISTS clinica1;
+USE clinica1;
+
+CREATE TABLE IF NOT EXISTS pacientes (
+  id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(50) NOT NULL,
+  apellido VARCHAR(50) NOT NULL,
+  fecha_nacimiento DATE,
+  telefono_celular VARCHAR(15),
+  localidad VARCHAR(50),
+  correo VARCHAR(50),
+  tipo_examen VARCHAR(100),
+  fecha_examen DATE,
+  hora_examen TIME
+);
